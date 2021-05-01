@@ -1,0 +1,33 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+a:hover ,a:visited{color: none;}
+li{list-style: none;}
+input{outline: none;}
+img{border: 0 none;}
+.clearfix:after,.clearfix:before{content: '';display: table;text-decoration: none;}
+.clearfix:after{clear:both}
+/* 主要区域 */
+body{background: url(../image/效果图/background.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.container{display: flex;justify-content: center;align-items: center;}
+.container .box{display: block;}
+.container .pic{display: flex;justify-content: center;margin-left: 105px;}
+.container .logo{width: 150px;height: 150px;margin-left: -75px;}
+.container .choice{display: flex;justify-content: center;}
+.container .choice li{font-size: 18px;font-weight: bolder;}
+.container .choice .dis{margin-right: 80px;width: 60px;height: 30px;background-color: #413f3f;text-align: center;border-radius: 10px;line-height: 25px;box-sizing: border-box;display: inline-block;color: white;}
+.container .choice .dis2{border-right: 1px solid black;}
+.container .choice .dis1{margin-left: 80px;color: black;}
+.container .input{margin-top: 30px;display: flex;flex-wrap: wrap;width: 300px;margin-right:auto ;position: relative;}
+.container .input input{width: 400px;height: 30px;border-radius: 16px;padding-left: 25px ;}
+.container .input .id{position: absolute;top: 8px;left: 10px;color: grey;}
+.container .input .lock{position: absolute;top: 8px;left: 10px;color: grey;}
+.container .input .right{margin-right: auto;}
+.container .input .forget{font-size: 10px;margin-top: 10px;}
+.container .button{width: 100px;height: 40px;font-size: 18px;font-weight: 700;background:linear-gradient(#fffcfc,#5e5e5e) ;text-align: center;border-radius: 20px;line-height: 40px;margin: 0 auto;}
+.container .button .link{text-decoration: underline;}
+.container .other{margin-top: 20px;display: flex;justify-content: center;font-size: 10px;}
+.container .icon{display: flex;justify-content: center;margin-left: 20px;}
+.container .icon img{width: 75px;height: 75px;margin-right: 20px;box-sizing: border-box;}
+.container .bottom{font-size: 12px;display: flex;justify-content: center;margin-top: 10px;}
+.container .bottom .dis{margin-left: 5px;color: blue;text-decoration: underline;}
+

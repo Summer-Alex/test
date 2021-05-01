@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+a:hover ,a:visited{color: none;}
+li{list-style: none;}
+input{outline: none;}
+img{border: 0 none;}
+.clearfix:after,.clearfix:before{content: '';display: table;text-decoration: none;}
+.clearfix:after{clear:both}
+/* 主要区域 */
+body{background: url(../image/效果图/background.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;width: 100%;height: 100%;}
+.container{display: flex;justify-content: center;align-items: center;}
+.container .block{display: block;width: 100%;}
+.container .block .top{display: flex;}
+.container .block .top .white{color: white;font-size: 18px;margin-top: 5px;margin-left: 10px;font-weight: bold;}
+.container .block .top .right{margin-right: auto;}
+.container .block .top .link{color: white;text-decoration: underline;display: inline-block;margin-right: 10px;margin-top: 5px;}
+.container .block .top .back{position: absolute;z-index: -1;left: 0;right: 0;width: 100%;height: 150px;}
+.container .choice{display: flex;justify-content: center;margin-top: 20px;}
+.container .choice li{margin-right: 3px;width: 65px;}
+.container .choice img{width: 65px;height: 65px;background: white;border-radius: 50%;}
+.container .choice .dis0{color: white;margin-left: 10px;}
+.container .choice span{margin-left: 18px;color: white;}
+.container .block .mine{margin-top: 20px;display: flex;}
+.container .block .mine .white{font-size: 18px;margin-top: 5px;margin-left: 10px;font-weight: 300;}
+.container .block .mine .right{margin-right: auto;}
+.container .block .mine .link{text-decoration: underline;display: inline-block;margin-right: 10px;margin-top: 5px;}
+.container .block .time{margin-top: 5px;display: flex;}
+.container .block .time .white{font-size: 18px;margin-top: 5px;margin-left: 10px;}
+.container .block .time .right{margin-right: auto;}
+.container .block .time .link{display: inline-block;margin-right: 10px;margin-top: 5px;}
+.container .block .adjust{display: flex;flex-wrap: wrap;}
+.container .block .adjust .left{width: 50%;height: 20%;position: relative;}
+.container .block .adjust .left .bamboo{width: 100%;height: 100%;}
+.container .block .adjust .left .people{width: 50%;height: 70%;position: absolute;top: 10%;left: 5%;}
+.container .block .adjust .left .life{position: absolute;top: 80%;left: 5%;}
+.container .block .adjust .left .intro{position: absolute;right:5%;top: 10%;}
+.container .block .adjust .left .intro li{margin-top: 5px;}
+.container .block .adjust .right{width: 50%;height: 20%;position: relative;}
+.container .block .adjust .right .bamboo{width: 100%;height: 100%;}
+.container .block .adjust .right .people{width: 50%;height: 70%;position: absolute;top: 10%;left: 5%;}
+.container .block .adjust .right .life{position: absolute;top: 80%;left: 5%;}
+.container .block .adjust .right .intro{position: absolute;top: 10%;right: 5%;}
+.container .block .adjust .right .intro li{margin-top: 5px;}
+.container .dis{display: flex;justify-content: center;align-items: center;position: absolute;top: 140%;height: 14%;background-color: rgba(233, 232, 232,0.8);width: 100%;left: 0%;}
+.container .dis .grey{width: 50px;height: 50px;padding-top: 10px;opacity: 0.7;}
+.container .dis .correct{margin-right: 15px;padding-top: 5px;}
+.container .dis .out{filter: brightness(-100%);width: 75px;height: 75px;margin-left: -5px;}
+.container .dis .big{font-weight: bold;margin-top: -11px;}
+.container .dis li{width: 65px;margin-left: 5px;}
+.container .dis img{height: 65px;width: 65px;filter: brightness(100%);}
+.container .dis span{display: flex;justify-content: center;}

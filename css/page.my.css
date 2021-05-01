@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+a:hover ,a:visited{color: none;}
+li{list-style: none;}
+input{outline: none;}
+img{border: 0 none;}
+.clearfix:after,.clearfix:before{content: '';display: table;text-decoration: none;}
+.clearfix:after{clear:both}
+/* 主要区域 */
+body{background: url(../image/效果图/background.jpg) no-repeat center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;width: 100%;height: 100%;}
+.container{display: flex;justify-content: center;align-items: center;}
+.container .box{display: block;width: 100%;}
+.container .box .adjust{background-color: white;display: flex;justify-content: center;width: 100%;}
+.container .box .adjust .msg{font-size: 18px;color: grey;font-weight: 800;}
+.container .box .adjust .cog{position: absolute;right: 1%;margin-top: 5px;color: grey;}
+.container .box .top{display: flex;justify-content: center;padding-right: 150px;border-bottom: 1px solid grey;margin-left: 5px;}
+.container .box .top .pic{width: 160px;height: 160px;margin-top: -20px;margin-right: -20px;margin-bottom: -40px;}
+.container .box .top .information{margin-top: 15px;}
+.container .box .top .information li{margin-top: 5px;font-size: 18px;}
+.container .box .choice{margin-top: 5px;display: flex;justify-content: center;border-bottom: 1px dashed grey;padding-bottom: 5px;}
+.container .box .choice li{width: 65px;margin-left: 15px;}
+.container .box .choice img{width: 60px;height: 60px;filter: brightness(-300%);}
+.container .box .choice .star{width: 50px;height: 50px;display: flex;justify-content: center;align-items: center;padding-bottom: 2.5px;margin-top: 5px;}
+.container .box .choice .word1{margin-top: 4px;display: inline-block;margin-left: 8px;margin-right: 10px;margin-top: 6px;font-weight: bold;}
+.container .box .choice .word{margin-left: 16px;margin-right: 8px;font-weight: bold;}
+.container .box .solid{margin-top: 5px;display: flex;justify-content: center;border-bottom: 1px solid grey;padding-bottom: 5px;}
+.container .box .solid li{width: 65px;margin-left: 5px;}
+.container .box .solid img{width: 60px;height: 60px;filter: brightness(-300%);}
+.container .box .solid .star{width: 50px;height: 50px;display: flex;justify-content: center;align-items: center;padding-bottom: 2.5px;}
+.container .box .solid .word1{margin-top: 4px;display: inline-block;margin-top: -1px;font-weight: bold;}
+.container .box .solid .word{font-weight: bold;margin-left: 8px;margin-right: 4px;}
+.container .box .solid .word2{font-weight: bold;margin-left: 4px;}
+.container .box .solid .en{width: 80px;}
+.container .box .solid .large{padding-right: 14px;}
+.container .box .select{margin-left: 20px;position: relative;}
+.container .box .select li{margin-top: 5px;}
+.container .box .select .link{position: absolute; right: 2%;}
+.container .box .select select{background: none;border: none;}
+.container .dis{display: flex;justify-content: center;align-items: center;position: absolute;top: 86%;height: 14%;background-color: rgba(233, 232, 232,0.8);width: 100%;left: 0%;}
+.container .dis .grey{width: 50px;height: 50px;padding-top: 10px;opacity: 0.7;}
+.container .dis .correct{margin-right: 15px;padding-top: 5px;}
+.container .dis .out{filter: brightness(-100%);width: 75px;height: 75px;margin-left: -5px;}
+.container .dis .big{font-weight: bold;margin-top: -11px;}
+.container .dis li{width: 65px;margin-left: 5px;}
+.container .dis img{height: 65px;width: 65px;filter: brightness(100%);}
+.container .dis span{display: flex;justify-content: center;}
