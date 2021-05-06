@@ -1,0 +1,21 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+li{list-style: none;}
+input{outline: none;}
+img{border: 0 none;}
+.clearfix:after,.clearfix:before{content: '';display: table;}
+.clearfix:after{clear:both}
+.link{width: 100%;margin-top: 10px;display: flex;border-bottom: 1px solid grey;}
+.link .return{margin-left: 5%;margin-right: auto;}
+.link .left{margin-right: 5px;}
+.link .rem{margin-right: 5%;border-radius: 10px;width: 40px;height: 30px;}
+.receive{margin-top: 10px;margin-left: 5%;}
+.receive li{margin-top: 15px;}
+.send{margin-top: 20%;display: flex;justify-content: center;position: relative;height: 300px;}
+.send .center{position: absolute;left: 30%;top: 25%;width: 70px;height: 60px;}
+.send .now{position: absolute;left: 30%;width: 60px;height: 60px;background-color: rgb(203, 255, 125);border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.send .week{position: absolute;left: 55%;top: 10%; width: 60px;height: 60px;background-color: rgb(203, 255, 125);border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.send .month{position: absolute;left: 60%;top: 40%; width: 60px;height: 60px;background-color: rgb(203, 255, 125);border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.send .msg1{margin-left: 10px;}
+.send .self{position: absolute;left: 45%;top: 66%; width: 60px;height: 60px;background-color: rgb(203, 255, 125);border-radius: 50%;display: flex;justify-content: center;align-items: center;}
+.send img{width: 60px;height: 60px;border-radius: 50%;background-color: green;}

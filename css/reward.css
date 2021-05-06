@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+a:hover ,a:visited{color: none;}
+li{list-style: none;}
+input{outline: none;}
+img{border: 0 none;}
+.clearfix:after,.clearfix:before{content: '';display: table;text-decoration: none;}
+.clearfix:after{clear:both}
+/* 主要区域 */
+body{background: url(../image/效果图/background.jpg)  center center fixed; -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;width: 100%;height: 100%;}
+.container{display: flex;justify-content: center;align-items: center;}
+.container .box{display: block;width: 100%;height: 100%;}
+.container .box .top{margin-top: 10px;}
+.container .box .link{position: absolute;left: 5%;}
+.container .box .search{margin-top: 12%;display: flex;justify-content: center;}
+.container .box .search input{width: 80%;height: 20px;border-radius: 16px;position: relative;}
+.container .box .search .locate{position: absolute;right: 15%;top: 7.5%;color: grey;border: none;}
+.container .box .swiper-container{width: 100%;height: 20%;margin-top: 15px;}
+.container .box .swiper-container img{width: 100%;height: 80%;}
+.container .box .choice{margin-top: 5px;display: flex;}
+.container .box .choice li{margin-left: 15px;}
+.container .box .choice .look{text-decoration: underline;font-weight: 700;}
+.container .box .news li{width: 100%;background-color: white;margin-top: 10px;display: flex;flex-wrap: wrap;}
+.container .box .news img{width: 80px;height: 80px;}
+.container .box .news .out{font-size: 15px;font-weight: 800;margin-top: 10px;margin-left: 5px;height: 20px;}
+.container .box .news .introduce{width: calc(100% - 80px);margin-left: 85px;margin-top: -45px;}
+.container .box .news .out1{font-size: 14.5px;font-weight: 800;margin-top: 10px;height: 20px;}

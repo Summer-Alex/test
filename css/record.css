@@ -35,14 +35,16 @@ body{background: url(../image/效果图/background.jpg)  center center fixed; -w
 .container .block .adjust .left .life{position: absolute;top: 80%;left: 5%;}
 .container .block .adjust .left .intro{position: absolute;right:5%;top: 10%;}
 .container .block .adjust .left .intro li{margin-top: 5px;}
+.container .block .adjust .left .intro .put{margin-left: 10px;}
 .container .block .adjust .right{width: 50%;height: 20%;position: relative;}
 .container .block .adjust .right .bamboo{width: 100%;height: 100%;}
 .container .block .adjust .right .people{width: 50%;height: 70%;position: absolute;top: 10%;left: 5%;}
 .container .block .adjust .right .life{position: absolute;top: 80%;left: 5%;}
 .container .block .adjust .right .intro{position: absolute;top: 10%;right: 5%;}
 .container .block .adjust .right .intro li{margin-top: 5px;}
+.container .block .adjust .right .intro .put{margin-left: 8px;}
 .container .dis{display: flex;justify-content: center;align-items: center;position: absolute;top: 140%;height: 14%;background-color: rgba(233, 232, 232,0.8);width: 100%;left: 0%;}
-.container .dis .grey{width: 50px;height: 50px;padding-top: 10px;opacity: 0.7;}
+.container .dis .grey{width: 50px;height: 50px;padding-top: 10px;opacity: 0.5;}
 .container .dis .correct{margin-right: 15px;padding-top: 5px;}
 .container .dis .out{filter: brightness(-100%);width: 75px;height: 75px;margin-left: -5px;}
 .container .dis .big{font-weight: bold;margin-top: -11px;}
